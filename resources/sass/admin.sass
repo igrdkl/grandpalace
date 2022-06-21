@@ -1,0 +1,63 @@
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+body
+    font-family: Roboto, Arial, sans-serif
+    background-color: #f3ece2
+
+.admin-header-wrap
+    background-color: #570202
+    display: flex
+    align-items: center
+    padding: 0 30px
+
+.header-bar
+    display: flex
+    align-items: center
+
+.header-logo
+    margin-right: 30px
+
+
+.header-nav-list
+    position: relative
+    &:hover .hidden-hover
+        top: 68px
+        left: 0
+        right: -40px
+
+.hidden-hover
+    content: ""
+    position: absolute
+    z-index: -1
+    top: 0px
+    left: 0
+    right: -40px
+    background-color: #300000
+    transition: 0.5s
+
+.header-nav
+    display: flex
+    a
+        text-decoration: none
+        display: block
+        padding: 25px
+        color: #fff
+        font-size: 16px
+        transition: 0.4s
+        &:hover
+            background-color: #300000
+
+    li
+        list-style: none
+
+.svg:hover
+    fill: #300000
+    stroke-opacity: 1
+    fill-opacity: 0.3
+
+
+
+
