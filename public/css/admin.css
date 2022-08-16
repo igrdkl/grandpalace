@@ -73,6 +73,10 @@ body {
   height: 100%;
 }
 
+.active-flat {
+  fill: green;
+}
+
 .svg:hover {
   fill: #300000;
   stroke-opacity: 1;
